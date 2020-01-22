@@ -3,10 +3,10 @@ package us.mattgreen;
 /**
  * Created by mgreen14 on 12/27/17.
  */
-public class Student extends Person implements Talkable {
+public class Teacher extends Person implements Talkable {
     private int age;
 
-    public Student(int age, String name) {
+    public Teacher(int age, String name) {
         super(name);
         this.age = age;
     }
@@ -21,6 +21,6 @@ public class Student extends Person implements Talkable {
 
     @Override
     public String talk() {
-        return "Can we talk about my grade?";
+        return "Don't forget to do the assigned reading!";
     }
 }
