@@ -1,7 +1,7 @@
 package us.mattgreen;
 
 /**
- * Created by mgreen14 on 12/27/17.
+ * Created by mgreen14 on 12/28/17.
  */
 public class Cat extends Pet implements Talkable {
     private int mousesKilled;
